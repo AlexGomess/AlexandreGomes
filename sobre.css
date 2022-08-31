@@ -1,0 +1,98 @@
+body{
+    background-color: #0d192b;
+}
+
+.navbar{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.navbar a{
+    color: #f2f2f2;
+    text-align: center;
+    padding: 25px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: universal sans;
+}
+
+.navbar a:hover{
+    color: #07f9a2;
+    text-align: center;
+    padding: 25px;
+    text-decoration: none;
+    font-size: 25px;
+
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    background-color: #182436;
+    padding: 30px 30px 15px 30px;
+    margin-top: 45px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+}
+
+.aboutme{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.imgAlex{
+    display: inline-block;
+    vertical-align: top;
+}
+.imgAlex > img{
+    float: left;
+    max-width: 100%;
+    height: auto;
+
+    border: 2px solid #07f9a2;
+    border-radius: 15px;
+    padding: 4px;
+    width: 250px;
+
+    margin-right: 15px;
+}
+
+.textAboutme{
+    display: inline-block;
+}
+
+.textAboutme > h1{
+    color: #64ffc6;
+    position: relative;
+    bottom: 10px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.textAboutme > p{
+    color: #f2f2f2;
+    position: relative;
+    bottom: 5px;
+    overflow: hidden;
+    width: 880px;
+    font-size: 20px;
+}
+
+.textAboutme > button{
+    float: right;
+    background-color: #64ffc6;
+    border: none;
+    border-radius: 15px;
+    color: #182436;
+    font-weight: bold;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: relative;
+    bottom: 20px;
+    right: 30px;
+}
+
