@@ -95,4 +95,160 @@ body{
     bottom: 20px;
     right: 30px;
 }
+.main2{
+    display: flex;
+    flex-direction: column;
+    background-color: #182436;
+    padding: 30px 30px 15px 30px;
+    margin-top: 45px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+}
 
+.curriculum{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.titleCurr > h1{
+    color: #64ffc6;
+    position: relative;
+    bottom: 10px;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+.eduCurr > h1{
+    color: #f2f2f2;
+    position: relative;
+    bottom: 10px;
+    left: 350px;
+}
+
+.centerLine{
+    border-left: 3px solid #f2f2f2;
+    height: 450px;
+    position: absolute;
+    left: 50%;
+    top: 500;
+    margin-left: -3px;
+  }
+
+  .schools > h3{
+    color: #f2f2f2;
+    position: relative;
+    bottom: 78px;
+    left: 800px;
+    font-weight: bold;
+  }
+
+  .schools > h4{
+    color: #b1b1b1;
+    position: relative;
+    bottom: 37px;
+    left: 680px;
+  }
+
+  .schools > img{
+    color: #b1b1b1;
+    position: relative;
+    bottom: 80px;
+    left: 690px;
+    width: 60px;
+  }
+
+  .schools > p{
+    color: #f2f2f2;
+    position: relative;
+    bottom: 150px;
+    left: 800px;
+  }
+
+  .schools > hr{
+    color: #f2f2f2;
+        display: block;
+        width:450px;
+        position: relative;
+        bottom: 80px;
+        left: 320px;
+  }
+
+  .centerLine2{
+    border-left: 3px solid #f2f2f2;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 500;
+    margin-left: -3px;
+  }
+
+  .expCurr > h1{
+    color: #f2f2f2;
+    position: relative;
+    bottom: 10px;
+    left: 160px;
+}
+
+.proExp > h3{
+    color: #f2f2f2;
+    position: relative;
+    bottom: 40px;
+    left: 800px;
+    font-weight: bold;
+  }
+
+  .proExp > img{
+    color: #b1b1b1;
+    position: relative;
+    bottom: 78px;
+    left: 700px;
+    width: 60px;
+  }
+
+  .proExp > p{
+    color: #f2f2f2;
+    position: relative;
+    bottom: 120px;
+    left: 800px;
+  }
+
+  .centerLine3{
+    border-left: 3px solid #f2f2f2;
+    height: 350px;
+    position: absolute;
+    left: 50%;
+    top: 500;
+    margin-left: -3px;
+  }
+
+  .skillsCurr > h1{
+    color: #f2f2f2;
+    position: relative;
+    bottom: 10px;
+    left: 408px;
+}
+
+.skills > img{
+    color: #b1b1b1;
+    position: relative;
+    bottom: 40px;
+    left: 700px;
+    width: 60px;
+  }
+
+  .skills > button{
+    background-color:  #182436;
+    border: 1px solid #f2f2f2;
+    border-radius: 15px;
+    color: #f2f2f2;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    bottom: 70px;
+    left: 738px;
+    margin-right: 5px;
+  }
