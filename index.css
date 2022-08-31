@@ -92,7 +92,7 @@ body{
     -webkit-box-sizing: border-box;
 }
 
-.textAboutme > button{
+.button{
     float: right;
     background-color: #64ffc6;
     border: none;
