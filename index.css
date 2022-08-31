@@ -1,6 +1,7 @@
 body{
     background-color: #0d192b;
     margin: 0;
+    max-width: 1440px;
 }
 
 .navbar{
@@ -38,13 +39,17 @@ body{
     margin-right: 25px;
     margin-bottom: 25px;
     border-radius: 15px;
-    
+    max-width: 1440px;
+    -webkit-box-sizing: border-box;
 }
 
 .aboutme{
     display: inline-block;
     vertical-align: top;
     margin:0;
+    max-width: 1440px;
+    -webkit-box-sizing: border-box;
+    
 }
 
 .imgAlex{
@@ -60,12 +65,13 @@ body{
     border-radius: 15px;
     padding: 4px;
     width: 250px;
-
+    -webkit-box-sizing: border-box;
     margin-right: 15px;
 }
 
 .textAboutme{
     display: inline-block;
+    max-width: 1440px;
 }
 
 .textAboutme > h1{
@@ -81,8 +87,9 @@ body{
     position: relative;
     bottom: 5px;
     overflow: hidden;
-    width: 850px;
+    max-width: 850px;
     font-size: 1.5625vw;
+    -webkit-box-sizing: border-box;
 }
 
 .textAboutme > button{
@@ -98,6 +105,7 @@ body{
     font-size: 1.25vw;
     position: relative;
     bottom: 20px;
+    -webkit-box-sizing: border-box;
 }
 
 .main2{
@@ -110,6 +118,7 @@ body{
     margin-right: 25px;
     margin-bottom: 25px;
     border-radius: 15px;
+    max-width: 1440px;
 }
 
 .curriculum{
@@ -130,25 +139,23 @@ body{
   color: #f2f2f2;
   position: relative;
   bottom: 10px;
-  left: 350px;
+  margin-left: 350px;
 }
 
 .centerLine{
   border-left: 3px solid #f2f2f2;
   height: 450px;
   position: absolute;
-  margin-left: auto;
-  margin-right: auto;
-  left: 50%;
+  margin-right: 50%;
+  margin-left: 50%;
   right: 0;
-  margin-left: -3px;
 }
 
 .schools > h3{
   color: #f2f2f2;
   position: relative;
   bottom: 78px;
-  left: 800px;
+  margin-left: 800px;
   font-weight: bold;
 }
 
@@ -156,14 +163,14 @@ body{
   color: #b1b1b1;
   position: relative;
   bottom: 37px;
-  left: 680px;
+  margin-left: 680px;
 }
 
 .schools > img{
   color: #b1b1b1;
   position: relative;
   bottom: 80px;
-  left: 690px;
+  margin-left: 690px;
   width: 60px;
   max-width: 100%;
 }
@@ -172,7 +179,7 @@ body{
   color: #f2f2f2;
   position: relative;
   bottom: 150px;
-  left: 800px;
+  margin-left: 800px;
 }
 
 .schools > hr{
@@ -181,30 +188,32 @@ body{
       width:450px;
       position: relative;
       bottom: 80px;
-      left: 320px;
+      margin-left: 680px;
 }
 
 .centerLine2{
   border-left: 3px solid #f2f2f2;
   height: 200px;
   position: absolute;
-  left: 50%;
+  margin-right: 50%;
+  margin-left: 50%;
+  right: 0;
   top: 500;
-  margin-left: -3px;
+  
 }
 
 .expCurr > h1{
   color: #f2f2f2;
   position: relative;
   bottom: 10px;
-  left: 160px;
+  margin-left: 160px;
 }
 
 .proExp > h3{
   color: #f2f2f2;
   position: relative;
   bottom: 40px;
-  left: 800px;
+  margin-left: 800px;
   font-weight: bold;
 }
 
@@ -212,7 +221,7 @@ body{
   color: #b1b1b1;
   position: relative;
   bottom: 78px;
-  left: 690px;
+  margin-left: 690px;
   width: 60px;
   max-width: 100%;
 }
@@ -221,32 +230,35 @@ body{
   color: #f2f2f2;
   position: relative;
   bottom: 120px;
-  left: 800px;
+  margin-left: 800px;
 }
 
 .centerLine3{
   border-left: 3px solid #f2f2f2;
   height: 350px;
   position: absolute;
-  left: 50%;
+  margin-right: 50%;
+  margin-left: 50%;
+  right: 0;
   top: 500;
-  margin-left: -3px;
+
 }
 
 .skillsCurr > h1{
   color: #f2f2f2;
   position: relative;
   bottom: 10px;
-  left: 408px;
+  margin-left: 408px;
 }
 
 .skills > img{
   color: #b1b1b1;
   position: relative;
-  bottom: 40px;
-  left: 690px;
+  bottom: 43px;
+  margin-left: 690px;
   width: 60px;
   max-width: 100%;
+  margin-right: 5px;
 }
 
 .skills > button{
@@ -260,9 +272,12 @@ body{
   text-decoration: none;
   position: relative;
   bottom: 70px;
-  left: 728px;
-  margin-right: 5px;
+  margin-right: 3px;
+  margin-left: 3px;
+  
+
 }
+
 
 .main3{
   display: flex;
@@ -274,6 +289,7 @@ body{
   margin-right: 25px;
   margin-bottom: 25px;
   border-radius: 15px;
+  max-width: 1440px;
 }
 
 .projects{
