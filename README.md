@@ -1,16 +1,5 @@
 # Personal Portfolio - Alexandre Gomes
 
-Navigation ✓
+-In reconstruction
 <br>
-About me ✓
-<br>
-Curriculum ✓
-<br>
-Projects ✓
-<br>
-Footer ✓
-
-Media queries ×
-<br>
-Extras ×
-
+-Seeking responsiveness
