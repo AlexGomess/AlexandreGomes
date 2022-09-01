@@ -1,0 +1,460 @@
+body{
+    background-color: #0d192b;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    overflow: hidden;
+    text-align: center;
+}
+
+.navbar a {
+    display: inline-block;
+    color: #f2f2f2;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  .navbar a:hover {
+    color: #15faa6;
+  }
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutme{
+    display: inline-block;
+    background-color: #182436;
+    padding: 30px;
+    margin: 25px;
+    border-radius: 15px;
+}
+
+.aboutme > img {
+    float: left;
+    width: 24%;
+    height: auto;
+    border: 2px solid #15faa6;
+    border-radius: 15px;
+    padding: 4px;
+    margin-right: 15px;
+}
+
+.aboutme > h1 {
+    color: #15faa6;
+    font-size: 40px;
+}
+
+.aboutme > p {
+    color: #f2f2f2;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.button{
+float: right;
+background-color: #15faa6;
+color: #182436;
+text-decoration: none;
+font-weight: bold;
+font-size: 20px;
+border: none;
+border-radius: 15px;
+padding: 15px 50px;
+}
+
+.button:hover{
+text-decoration: underline;
+    }
+
+.curriculum{
+        display: inline-block;
+        background-color: #182436;
+        padding: 30px;
+        margin: 25px;
+        border-radius: 15px;
+}
+
+.curriculum > h1 {
+    color: #15faa6;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+.education > h1 {
+    color: #f2f2f2;
+    font-size: 30px;
+}
+
+.vertical-line1 {
+    border-left: 3px solid #f2f2f2;
+    height: 450px;
+    align-items: center;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+.years {
+    color: #aaaaaa;
+}
+
+#pr {
+    color: #f2f2f2;
+}
+
+.education > h2 {
+    color: #f2f2f2;
+}
+
+.education > img {
+    width: 5%;
+    height: auto;
+}
+
+.education > .years,h2 {
+    display:inline;
+}
+
+.education > img,#pr {
+    display:inline;
+}
+
+.education > hr {
+    float: left;
+    color: #f2f2f2;
+    width: 40%;
+}
+
+.projetos{
+    display: inline-block;
+    background-color: #182436;
+    padding: 30px;
+    margin: 25px;
+    border-radius: 15px;
+}
+
+.projetos > h1{
+    color: #15faa6;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+.projetos > a >figure {
+    float: left;
+    width: 25%;
+    height: auto;
+    display: flex;
+    flex-flow: column;
+    margin: auto;
+}
+
+.projetos > a > figure > img{
+    border: 3px solid #15faa6;
+    border-radius: 15px;
+}
+
+.projetos > a >figure > figcaption {
+    margin-top: 2%;
+    color: #f2f2f2;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.footer{
+    width: 100%;
+    background-color: #15faa6;
+    text-align: center;
+  }
+  
+.footer > a > img {
+    width: 3%;
+    margin-top:50px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.footer > #footer-name{
+    color: #0d192b;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer > #footer-copyright{
+    color: #0d192b;
+    margin-top: -10px;
+    font-size: 15px;
+}
+
+
+
+
+
+/*
+Media Queries - Containers (>2000px)
+*/
+
+@media screen and (min-width: 2000px) {
+    .aboutme{
+        display: inline-block;
+        background-color: #182436;
+        padding: 60px;
+        margin: 60px;
+        border-radius: 45px;
+    }
+    .curriculum{
+        display: inline-block;
+        background-color: #182436;
+        padding: 60px;
+        margin: 60px;
+        border-radius: 45px;
+    }
+    .projetos{
+        display: inline-block;
+        background-color: #182436;
+        padding: 60px;
+        margin: 60px;
+        border-radius: 45px;
+    }
+  }
+
+/*
+Media Queries - Navbar
+*/
+
+  @media screen and (max-width: 300px) {
+    .navbar a {
+        font-size: 12px;
+        padding: 10px;
+    }
+      }
+
+  @media screen and (min-width: 301px) and (max-width: 600px) {
+.navbar a {
+    font-size: 17px;
+    padding: 15px;
+}
+  }
+
+  @media screen and (min-width: 2000px) {
+    .navbar a {
+        font-size: 70px;
+        padding: 40px;
+    }
+      }
+
+/*
+Media Queries - About me text
+*/
+
+ @media screen and (max-width: 300px) {
+    .aboutme > h1 {
+        color: #64ffc6;
+        font-size: 15px;
+    }
+    .aboutme > p {
+        color: #f2f2f2;
+        font-size: 12px;
+        text-align: justify;
+    }
+          }
+
+ @media screen and (min-width: 301px) and (max-width: 600px) {
+    .aboutme > h1 {
+        color: #64ffc6;
+        margin-top: 25px;
+        margin-bottom: 40px;
+        font-size: 20px;
+    }
+    .aboutme > p {
+        color: #f2f2f2;
+        font-size: 20px;
+        text-align: justify;
+    }
+            }
+    
+@media screen and (min-width: 2000px) {
+    .aboutme > h1 {
+        color: #64ffc6;
+        font-size: 80px;
+    }
+    .aboutme > p {
+        color: #f2f2f2;
+        font-size: 40px;
+        text-align: justify;
+    }
+          }
+
+/*
+Media Queries - Contact button
+*/
+
+@media screen and (max-width: 300px) {
+.button{
+    background-color: #64ffc6;
+    color: #182436;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 15px;
+    padding: 15px 50px;
+    }
+}
+
+@media screen and (min-width: 301px) and (max-width: 600px) {
+    .button{
+        background-color: #64ffc6;
+        color: #182436;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 20px;
+        border: none;
+        border-radius: 15px;
+        padding: 15px 50px;
+        }
+    }
+
+    @media screen and (min-width: 2000px) {
+        .button{
+            background-color: #64ffc6;
+            color: #182436;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 80px;
+            border: none;
+            border-radius: 15px;
+            padding: 15px 50px;
+            }
+        }
+
+
+
+
+/*
+Media Queries - Projects
+*/
+
+@media screen and (max-width: 300px) {
+    .projetos > a >figure {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-flow: column;
+        margin: auto;
+    }
+    .projetos > a > figure > figcaption {
+        margin-top: 2%;
+        color: #f2f2f2;
+        font-size: 15px;
+        text-align: center;
+    }
+      }
+
+  @media screen and (min-width: 301px) and (max-width: 600px) {
+    .projetos > a > figure {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-flow: column;
+        margin: auto;
+    }
+    .projetos > a > figure > figcaption {
+        margin-top: 2%;
+        color: #f2f2f2;
+        font-size: 20px;
+        text-align: center;
+    }
+  }
+
+  @media screen and (min-width: 2000px) {
+    .projetos > a > figure {
+        float: left;
+        width: 30%;
+        height: auto;
+        display: flex;
+        flex-flow: column;
+        margin: auto;
+    }
+
+    .projetos > a > figure > figcaption {
+        margin-top: 2%;
+        color: #f2f2f2;
+        font-size: 50px;
+        text-align: center;
+    }
+      }
+
+/*
+Media Queries - Footer
+*/
+
+@media screen and (max-width: 300px) {
+    .footer > a > img {
+        width: 15%;
+        margin-top:20px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    
+    .footer > #footer-name{
+        color: #0d192b;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    
+    .footer > #footer-copyright{
+        color: #0d192b;
+        margin-top: -10px;
+        font-size: 10px;
+    }
+      }
+
+  @media screen and (min-width: 301px) and (max-width: 600px) {
+    .footer > a > img {
+        width: 12%;
+        margin-top:30px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    
+    .footer > #footer-name{
+        color: #0d192b;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    
+    .footer > #footer-copyright{
+        color: #0d192b;
+        margin-top: -10px;
+        font-size: 15px;
+    }
+  }
+
+  @media screen and (min-width: 2000px) {
+    .footer > a > img {
+        width: 6%;
+        margin-top:75px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .footer > #footer-name{
+        color: #0d192b;
+        font-size: 45px;
+        font-weight: bold;
+    }
+    
+    .footer > #footer-copyright{
+        color: #0d192b;
+        margin-top: -25px;
+        font-size: 30px;
+    }
+      }
