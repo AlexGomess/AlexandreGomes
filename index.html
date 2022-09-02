@@ -4,144 +4,114 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://i.ibb.co/86mKY8p/Vers-o-Final-png.png"
+    />
     <link rel="stylesheet" href="index.css" />
-    <title>Personal Website</title>
+    <title>Personal Portfolio</title>
   </head>
+
   <body>
-    <div class="navbar">
-      <a href="#abtme">About me</a>
-      <a href="#curr">Curriculum</a>
-      <a href="#prjs">Projects</a>
+    <div class="navbar" id="topnav">
+      <a href="#aboutmeID">About me</a>
+      <a href="#curriculumID">Curriculum</a>
+      <a href="#projectsID">Projects</a>
     </div>
 
-    <div class="main">
-      <div id="abtme" class="aboutme">
-        <div class="imgAlex">
-          <img
-            src="https://i.ibb.co/7XTQy8C/Foto-Alexandre.jpg"
-            alt="Photo of Alexandre Gomes"
-          />
-        </div>
-
-        <div class="textAboutme">
-          <h1>Alexandre Gomes</h1>
-          <p>
-            I'm a 19 years old university student, residing in São Romão do
-            Coronado and currently studying Systems Engineering at Instituto
-            Superior de Engenharia do Porto. <br /><br />
-            With an interest in front-end development, I'm willing to learn more
-            about the current tools used in the market and be able to master
-            them in my projects.
-          </p>
-          <a href="#ftr" class="button">Contacts</a>
-        </div>
+    <div class="flex-container">
+      <div id="aboutmeID" class="aboutme">
+        <img
+          src="https://i.ibb.co/7XTQy8C/Foto-Alexandre.jpg"
+          alt="Photo of Alexandre Gomes"
+        />
+        <h1>Alexandre Gomes</h1>
+        <p>
+          I'm a 19 years old portuguese university student, residing in São
+          Romão do Coronado and currently studying Systems Engineering at
+          Instituto Superior de Engenharia do Porto. <br /><br />
+          With an interest in front-end development, I'm willing to learn more
+          about the current tools used in the market and be able to master them
+          in my projects.
+        </p>
+        <a href="#footerID" class="button">Contacts</a>
       </div>
-    </div>
 
-    <div class="main2">
-      <div id="curr" class="curriculum">
-        <div class="titleCurr">
-          <h1>Curriculum</h1>
-        </div>
-        <div class="centerLine"></div>
-        <div class="eduCurr">
-          <br />
+      <div id="curriculumID" class="curriculum">
+        <h1>Curriculum</h1>
+        <br />
+        <div class="education">
           <h1>Education</h1>
-        </div>
-        <div class="schools">
-          <h4>2020-Present</h4>
-          <h3>Instituto Superior de Engenharia do Porto</h3>
+          <div class="vertical-line1"></div>
+          <p class="years">2020-Present</p>
+          <h2>Instituto Superior de Engenharia do Porto</h2>
+          <br />
           <img src="https://i.ibb.co/Jjy7qVv/logoIsep.png" alt="ISEP Icon" />
-          <p>Pursuing a degree in Systems Engineering.</p>
+          <p id="pr">Pursuing a degree in Systems Engineering.</p>
+          <br />
           <hr />
-          <h4>2017-2020</h4>
-          <h3>Escola Secundária da Boa Nova</h3>
+          <br />
+          <p class="years">2017-2020</p>
+          <h2>Escola Secundária da Boa Nova</h2>
+          <br />
           <img
             src="https://i.ibb.co/5v52S84/Logo-Boa-Nova.png"
-            alt="Escola Secundária da Boa Nova Icon"
+            alt="ESBN Icon"
           />
-          <p>Completed highschool in Science and Technology.</p>
-        </div>
-
-        <br />
-
-        <div class="centerLine2"></div>
-        <div class="expCurr">
-          <br />
-          <h1>Professional Experience</h1>
-        </div>
-        <div class="proExp">
-          <h3>None</h3>
-          <img src="https://i.ibb.co/syZrVcw/iconWork.png" alt="Work Icon" />
-          <p>Looking forward to future opportunities.</p>
-        </div>
-
-        <br />
-
-        <div class="centerLine3"></div>
-        <div class="skillsCurr">
-          <br />
-          <h1>Skills</h1>
-        </div>
-        <div class="skills">
-          <img
-            src="https://i.ibb.co/NZK0T1t/progLogo.png"
-            alt="Programming Languages Icon"
-          />
-          <button>HTML</button>
-          <button>CSS</button>
-          <button>Java</button>
-          <button>Matlab</button>
-          <br /><br />
-          <img
-            src="https://i.ibb.co/PzFtfc7/microsoft-Logo.png"
-            alt="Microsoft Icon"
-          />
-          <button>Word</button>
-          <button>Excel</button>
-          <button>Powerpoint</button>
-          <button>Project</button>
-          <br /><br />
-          <img
-            src="https://i.ibb.co/37rf844/lingLogo.png"
-            alt="Languages Icon"
-          />
-          <button>Portuguese</button>
-          <button>English</button>
+          <p id="pr">Completed highschool in Science and Technology.</p>
         </div>
       </div>
-      <br />
-    </div>
 
-    <div class="main3">
-      <div id="prjs" class="projects">
-        <div class="titlePrjs">
-          <h1>Projects</h1>
-        </div>
-        <div class="projs">
-          <a
-            href="https://alexgomess.github.io/Personal-Portfolio"
-            target="_blank"
-          >
+      <div id="projectsID" class="projects">
+        <h1>Projects</h1>
+        <br />
+
+        <a
+          href="https://alexgomess.github.io/Personal-Portfolio/"
+          target="_blank"
+        >
+          <figure class="project-1">
             <img
-              id="ima"
               src="https://i.ibb.co/3z2m1Fs/portf.jpg"
               alt="Personal Portfolio"
             />
-          </a>
-          <p>Personal Portfolio</p>
-        </div>
+
+            <figcaption class="name-project1">Personal Portfolio</figcaption>
+          </figure>
+        </a>
       </div>
     </div>
+    <br />
 
-    <div id="ftr" class="footer">
+    <footer id="footerID" class="footer">
       <a
         href="https://www.linkedin.com/in/alexandre-gomes-5a9809227/"
         target="_blank"
-        >LinkedIn</a
-      >
-      <a href="mailto:alexandregomeswork@gmail.com" target="_blank">Gmail</a>
-      <a href="https://github.com/AlexGomess" target="_blank">GitHub</a>
-    </div>
+        ><img
+          src="https://i.ibb.co/7N9PBYw/circle-linkedin.png"
+          alt="LinkedIn Logo"
+      /></a>
+      <a href="mailto:alexandregomeswork@gmail.com" target="_blank"
+        ><img
+          src="https://i.ibb.co/zbHFz3L/email-circle-logo.png"
+          alt="Mail Logo"
+      /></a>
+      <a href="https://github.com/AlexGomess" target="_blank"
+        ><img
+          src="https://i.ibb.co/6JXs7fj/circle-github.png"
+          alt="GitHub Logo"
+      /></a>
+
+      <p id="footer-name">Created by Alexandre Gomes</p>
+      <p id="footer-copyright">© 2022</p>
+      <br />
+    </footer>
+    <img
+      src="https://i.ibb.co/Z1TgCfL/arrow.png"
+      onclick="topFunction()"
+      id="returnTop"
+    />
+    <script src="index.js"></script>
   </body>
 </html>
