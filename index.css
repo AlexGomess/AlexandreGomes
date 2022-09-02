@@ -84,7 +84,7 @@ transform: scale(1.1);
 .curriculum > h1 {
     color: #15faa6;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -93,12 +93,16 @@ transform: scale(1.1);
     font-size: 30px;
 }
 
+.line-container{
+    position: relative;
+}
+
 .vertical-line1 {
     border-left: 3px solid #f2f2f2;
-    height: 450px;
-    align-items: center;
-    margin-left: 50%;
-    margin-right: 50%;
+    position: absolute;
+    height: 200px;
+    margin-top: -60px;
+    right: 50%;
 }
 
 .years {
@@ -109,28 +113,62 @@ transform: scale(1.1);
     color: #f2f2f2;
 }
 
-.education > h2 {
-    color: #f2f2f2;
+.schools {
+    float: right;
 }
 
-.education > img {
+.schools > h2 {
+    color: #f2f2f2;
+    font-size: 20px;
+}
+
+.schools > img {
     width: 5%;
     height: auto;
 }
 
-.education > .years,h2 {
+.schools > .years,h2 {
     display:inline;
 }
 
-.education > img,#pr {
+.schools > img,#pr {
     display:inline;
 }
 
-.education > hr {
+.schools > hr {
     float: left;
     color: #f2f2f2;
     width: 40%;
 }
+
+.proExp > h1 {
+    color: #f2f2f2;
+    font-size: 30px;
+}
+
+.exp > p {
+    color: #f2f2f2;
+}
+
+.exp {
+    float: right;
+}
+
+.exp > h2 {
+    color: #f2f2f2;
+    font-size: 20px;
+}
+
+.exp > img {
+    width: 5%;
+    height: auto;
+}
+
+.exp > img,#pr {
+    display:inline;
+}
+
+
 
 .projects{
     display: inline-block;
@@ -143,7 +181,7 @@ transform: scale(1.1);
 .projects > h1{
     color: #15faa6;
     font-weight: bold;
-    font-size: 10px;
+    font-size: 40px;
     text-align: center;
 }
 
@@ -241,6 +279,53 @@ Media Queries - Containers (>2000px)
     }
   }
 
+  @media screen and (max-width: 300px) {
+    .aboutme{
+        display: inline-block;
+        background-color: #182436;
+        padding: 30px;
+        margin: 25px;
+        border-radius: 15px;
+    }
+    .curriculum{
+        display: inline-block;
+        background-color: #182436;
+        padding: 30px;
+        margin: 25px;
+        border-radius: 15px;
+    }
+    .projetos{
+        display: inline-block;
+        background-color: #182436;
+        padding: 30px;
+        margin: 25px;
+        border-radius: 15px;
+    }
+  }
+
+  @media screen and (min-width: 301px) and (max-width: 600px) {
+    .aboutme{
+        display: inline-block;
+        background-color: #182436;
+        padding: 30px;
+        margin: 25px;
+        border-radius: 15px;
+    }
+    .curriculum{
+        display: inline-block;
+        background-color: #182436;
+        padding: 30px;
+        margin: 25px;
+        border-radius: 15px;
+    }
+    .projetos{
+        display: inline-block;
+        background-color: #182436;
+        padding: 30px;
+        margin: 25px;
+        border-radius: 15px;
+    }
+  }
 /*
 Media Queries - Navbar
 */
@@ -351,6 +436,109 @@ Media Queries - Contact button
             }
         }
 
+/*
+Media Queries - Curriculum
+*/
+
+@media screen and (max-width: 300px) {
+    .education > h1 {
+        color: #f2f2f2;
+        font-size: 15px;
+        text-align: center;
+        margin-top: -10%;
+    }
+    .vertical-line1 {
+        border: 0;
+    }
+    
+    .years {
+        color: #aaaaaa;
+    }
+    
+    #pr {
+        color: #dadada;
+        margin-top: -10%;
+        font-size: 13px;
+    }
+    
+    .schools > h2 {
+        color: #f2f2f2;
+        font-size: 15px;
+    }
+    
+    .schools > img {
+        width: 0%;
+        height: auto;
+    }
+    
+    .schools > .years,h2 {
+        display:flex;
+        text-align: center;
+    }
+    
+    .schools > img,#pr {
+        display:flex;
+        text-align: center;
+    }
+    
+    .schools > hr {
+        color: #f2f2f2;
+        width: 50%;
+    }
+      }
+
+  @media screen and (min-width: 301px) and (max-width: 600px) {
+    .education > h1 {
+        color: #f2f2f2;
+        font-size: 15px;
+        text-align: center;
+        margin-top: -10%;
+    }
+    .vertical-line1 {
+        border: 0;
+    }
+    
+    .years {
+        color: #aaaaaa;
+        margin-top: 2%;
+    }
+    
+    #pr {
+        color: #dadada;
+        margin-top: -10%;
+        font-size: 13px;
+    }
+    
+    .schools > h2 {
+        color: #f2f2f2;
+        font-size: 15px;
+    }
+    
+    .schools > img {
+        width: 0%;
+        height: auto;
+    }
+    
+    .schools > .years,h2 {
+        display:flex;
+        text-align: center;
+    }
+    
+    .schools > img,#pr {
+        display:flex;
+        text-align: center;
+    }
+    
+    .schools > hr {
+        color: #f2f2f2;
+        width: 100%;
+        margin-top: -2%;
+    }
+  }
+
+  @media screen and (min-width: 2000px) {
+
+      }
 
 
 
