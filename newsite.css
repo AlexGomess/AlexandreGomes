@@ -193,8 +193,15 @@ text-decoration: underline;
     font-size: 15px;
 }
 
-
-
+#returnTop {
+    display: none; 
+    position: fixed; 
+    bottom: 50px; 
+    right: 50px; 
+    z-index: 99; 
+    cursor: pointer; 
+    width: 4%;
+  }
 
 
 /*
@@ -457,4 +464,44 @@ Media Queries - Footer
         margin-top: -25px;
         font-size: 30px;
     }
+      }
+
+/*
+Media Queries - Return Button
+*/
+
+@media screen and (max-width: 300px) {
+    #returnTop {
+        display: none; 
+        position: fixed; 
+        bottom: 30px; 
+        right: 20px; 
+        z-index: 99; 
+        cursor: pointer; 
+        width: 6%;
+      }
+      }
+
+  @media screen and (min-width: 301px) and (max-width: 600px) {
+    #returnTop {
+        display: none; 
+        position: fixed; 
+        bottom: 40px; 
+        right: 20px; 
+        z-index: 99; 
+        cursor: pointer; 
+        width: 7%;
+      }
+  }
+
+  @media screen and (min-width: 2000px) {
+    #returnTop {
+        display: none; 
+        position: fixed; 
+        bottom: 80px; 
+        right: 40px; 
+        z-index: 99; 
+        cursor: pointer; 
+        width: 4%;
+      }
       }
