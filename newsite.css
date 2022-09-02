@@ -131,7 +131,7 @@ text-decoration: underline;
     width: 40%;
 }
 
-.projetos{
+.projects{
     display: inline-block;
     background-color: #182436;
     padding: 30px;
@@ -139,14 +139,14 @@ text-decoration: underline;
     border-radius: 15px;
 }
 
-.projetos > h1{
+.projects > h1{
     color: #15faa6;
     font-weight: bold;
     font-size: 40px;
     text-align: center;
 }
 
-.projetos > a >figure {
+.projects > a >figure {
     float: left;
     width: 25%;
     height: auto;
@@ -155,12 +155,12 @@ text-decoration: underline;
     margin: auto;
 }
 
-.projetos > a > figure > img{
+.projects > a > figure > img{
     border: 3px solid #15faa6;
     border-radius: 15px;
 }
 
-.projetos > a >figure > figcaption {
+.projects > a > figure > figcaption {
     margin-top: 2%;
     color: #f2f2f2;
     font-size: 20px;
@@ -350,14 +350,14 @@ Media Queries - Projects
 */
 
 @media screen and (max-width: 300px) {
-    .projetos > a >figure {
+    .projects > a > figure {
         width: 100%;
         height: auto;
         display: flex;
         flex-flow: column;
         margin: auto;
     }
-    .projetos > a > figure > figcaption {
+    .projects > a > figure > figcaption {
         margin-top: 2%;
         color: #f2f2f2;
         font-size: 15px;
@@ -366,14 +366,14 @@ Media Queries - Projects
       }
 
   @media screen and (min-width: 301px) and (max-width: 600px) {
-    .projetos > a > figure {
+    .projects > a > figure {
         width: 100%;
         height: auto;
         display: flex;
         flex-flow: column;
         margin: auto;
     }
-    .projetos > a > figure > figcaption {
+    .projects > a > figure > figcaption {
         margin-top: 2%;
         color: #f2f2f2;
         font-size: 20px;
@@ -382,7 +382,7 @@ Media Queries - Projects
   }
 
   @media screen and (min-width: 2000px) {
-    .projetos > a > figure {
+    .projects > a > figure {
         float: left;
         width: 30%;
         height: auto;
@@ -391,7 +391,7 @@ Media Queries - Projects
         margin: auto;
     }
 
-    .projetos > a > figure > figcaption {
+    .projects > a > figure > figcaption {
         margin-top: 2%;
         color: #f2f2f2;
         font-size: 50px;
