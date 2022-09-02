@@ -20,6 +20,7 @@ body{
 
   .navbar a:hover {
     color: #15faa6;
+    transform: scale(1.1);
   }
 
 .flex-container{
@@ -69,7 +70,7 @@ padding: 15px 50px;
 }
 
 .button:hover{
-text-decoration: underline;
+transform: scale(1.1);
     }
 
 .curriculum{
@@ -146,13 +147,17 @@ text-decoration: underline;
     text-align: center;
 }
 
-.projects > a >figure {
+.projects > a > figure {
     float: left;
     width: 25%;
     height: auto;
     display: flex;
     flex-flow: column;
     margin: auto;
+}
+
+.projects > a > figure:hover {
+transform: scale(1.1);
 }
 
 .projects > a > figure > img{
@@ -179,6 +184,10 @@ text-decoration: underline;
     margin-top:50px;
     margin-left: 5px;
     margin-right: 5px;
+}
+
+.footer > a > img:hover {
+transform: scale(1.1);
 }
 
 .footer > #footer-name{
