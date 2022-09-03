@@ -177,12 +177,6 @@ transform: scale(1.1);
     margin-left: 2%;
 }
 
-.rightside2 > img {
-    width: 10%;
-    height: auto;
-    margin: 3%;
-}
-
 .rightside2 > p {
     color: #f2f2f2;
 }
@@ -223,10 +217,6 @@ transform: scale(1.1);
     text-align: center;
     margin-top: 3%;
 }
-
-
-
-
 
 .projects{
     display: inline-block;
@@ -310,10 +300,10 @@ transform: scale(1.1);
 
 
 /*
-Media Queries - Containers (>2000px)
+Media Queries - Containers (>1200px)
 */
 
-@media screen and (min-width: 2000px) {
+@media screen and (min-width: 1200px) {
     .aboutme{
         display: inline-block;
         background-color: #182436;
@@ -388,14 +378,14 @@ Media Queries - Containers (>2000px)
 Media Queries - Navbar
 */
 
-  @media screen and (max-width: 300px) {
+  @media screen and (max-width: 480px) {
     .navbar a {
         font-size: 12px;
         padding: 10px;
     }
       }
 
-  @media screen and (min-width: 301px) and (max-width: 600px) {
+  @media screen and (min-width: 481px) and (max-width: 600px) {
 .navbar a {
     font-size: 17px;
     padding: 15px;
@@ -413,19 +403,31 @@ Media Queries - Navbar
 Media Queries - About me text
 */
 
- @media screen and (max-width: 300px) {
+ @media screen and (max-width: 480px) {
+    .aboutme > img{
+        width: 100%;
+        margin-bottom: 3%;
+    }
     .aboutme > h1 {
         color: #64ffc6;
-        font-size: 15px;
+        font-size: 30px;
+        text-align: center;
     }
     .aboutme > p {
         color: #f2f2f2;
         font-size: 12px;
         text-align: justify;
     }
+
+
           }
 
- @media screen and (min-width: 301px) and (max-width: 600px) {
+ @media screen and (min-width: 481px) and (max-width: 600px) {
+    .aboutme > img{
+        width: 100%;
+        margin-bottom: 3%;
+    }
+    
     .aboutme > h1 {
         color: #64ffc6;
         margin-top: 25px;
@@ -439,14 +441,19 @@ Media Queries - About me text
     }
             }
     
-@media screen and (min-width: 2000px) {
+@media screen and (min-width: 1200px) {
+    .aboutme > img{
+        width: 25%;
+        margin-bottom: 3%;
+
+    }
     .aboutme > h1 {
         color: #64ffc6;
-        font-size: 80px;
+        font-size: 40px;
     }
     .aboutme > p {
         color: #f2f2f2;
-        font-size: 40px;
+        font-size: 20px;
         text-align: justify;
     }
           }
@@ -455,7 +462,7 @@ Media Queries - About me text
 Media Queries - Contact button
 */
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 480px) {
 .button{
     background-color: #64ffc6;
     color: #182436;
@@ -468,7 +475,7 @@ Media Queries - Contact button
     }
 }
 
-@media screen and (min-width: 301px) and (max-width: 600px) {
+@media screen and (min-width: 481px) and (max-width: 600px) {
     .button{
         background-color: #64ffc6;
         color: #182436;
@@ -498,54 +505,114 @@ Media Queries - Contact button
 Media Queries - Curriculum
 */
 
-@media screen and (max-width: 300px) {
-    .education > h1 {
-        color: #f2f2f2;
-        font-size: 15px;
-        text-align: center;
-        margin-top: -10%;
-    }
-    .vertical-line1 {
-        border: 0;
-    }
-    
-    .years {
-        color: #aaaaaa;
-    }
-    
-    #pr {
-        color: #dadada;
-        margin-top: -10%;
-        font-size: 13px;
-    }
-    
-    .schools > h2 {
-        color: #f2f2f2;
-        font-size: 15px;
-    }
-    
-    .schools > img {
-        width: 0%;
-        height: auto;
-    }
-    
-    .schools > .years,h2 {
-        display:flex;
-        text-align: center;
-    }
-    
-    .schools > img,#pr {
-        display:flex;
-        text-align: center;
-    }
-    
-    .schools > hr {
-        color: #f2f2f2;
-        width: 50%;
-    }
+@media screen and (max-width: 480px) {
+.education {
+    display: flex;
+    flex-direction: column;
+    border-top: 2px solid #15faa6;
+}
+
+.leftside {
+    border: 0;
+}
+
+.leftside > h2{
+    color: #f2f2f2;
+    font-size: 30px;
+    float: none;
+    text-align: center;
       }
 
-  @media screen and (min-width: 301px) and (max-width: 600px) {
+.leftside, .rightside {
+    padding: 0;
+}
+
+.rightside > .years,h3 {
+    display: inline-block;
+}
+
+.rightside > #isep {
+    margin-top: -5%;
+}
+
+.proExp {
+    display: flex;
+    flex-direction: column;
+    border-top: 2px solid #15faa6;
+  }
+
+.leftside2 > h2 {
+    color: #f2f2f2;
+    font-size: 30px;
+    float: none;
+    text-align: center;
+}
+
+.leftside2 {
+    border: 0;
+  }
+
+.leftside2,
+.rightside2 {
+    padding: 0;
+}
+
+.rightside2 > h3 {
+    color: #f2f2f2;
+    font-size: 20px;
+}
+
+.rightside2 > p {
+    color: #f2f2f2;
+    margin-top: -5%;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    border-top: 2px solid #15faa6;
+}
+
+.leftside3 > h2 {
+    color: #f2f2f2;
+    font-size: 30px;
+    float: none;
+    text-align: center;
+}
+
+.leftside3 {
+    border: 0;
+  }
+
+.leftside3,
+.rightside3 {
+  padding: 0;
+}
+
+.rightside3 > button{
+    background-color:  #182436;
+    border: 1px solid #f2f2f2;
+    border-radius: 15px;
+    color: #f2f2f2;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.rightside3 {
+    text-align: center;
+    margin-top: 3%;
+}
+
+
+
+
+
+
+}
+
+  @media screen and (min-width: 481px) and (max-width: 600px) {
     .education > h1 {
         color: #f2f2f2;
         font-size: 15px;
