@@ -380,7 +380,7 @@ Media Queries - Navbar
 
   @media screen and (max-width: 480px) {
     .navbar a {
-        font-size: 12px;
+        font-size: 25px;
         padding: 10px;
     }
       }
@@ -415,7 +415,7 @@ Media Queries - About me text
     }
     .aboutme > p {
         color: #f2f2f2;
-        font-size: 12px;
+        font-size: 20px;
         text-align: justify;
     }
 
@@ -560,11 +560,11 @@ Media Queries - Curriculum
 .rightside2 > h3 {
     color: #f2f2f2;
     font-size: 20px;
+    margin-bottom: -5%;
 }
 
 .rightside2 > p {
     color: #f2f2f2;
-    margin-top: -5%;
 }
 
 .skills{
@@ -671,7 +671,7 @@ Media Queries - Curriculum
 Media Queries - Projects
 */
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 480px) {
     .projects > a > figure {
         width: 100%;
         height: auto;
@@ -687,7 +687,7 @@ Media Queries - Projects
     }
       }
 
-  @media screen and (min-width: 301px) and (max-width: 600px) {
+  @media screen and (min-width: 481px) and (max-width: 600px) {
     .projects > a > figure {
         width: 100%;
         height: auto;
@@ -725,7 +725,7 @@ Media Queries - Projects
 Media Queries - Footer
 */
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 480px) {
     .footer > a > img {
         width: 15%;
         margin-top:20px;
@@ -746,7 +746,7 @@ Media Queries - Footer
     }
       }
 
-  @media screen and (min-width: 301px) and (max-width: 600px) {
+  @media screen and (min-width: 481px) and (max-width: 600px) {
     .footer > a > img {
         width: 12%;
         margin-top:30px;
@@ -792,7 +792,7 @@ Media Queries - Footer
 Media Queries - Return Button
 */
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 480px) {
     #returnTop {
         display: none; 
         position: fixed; 
@@ -804,7 +804,7 @@ Media Queries - Return Button
       }
       }
 
-  @media screen and (min-width: 301px) and (max-width: 600px) {
+  @media screen and (min-width: 481px) and (max-width: 600px) {
     #returnTop {
         display: none; 
         position: fixed; 
