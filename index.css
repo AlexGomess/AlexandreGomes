@@ -380,7 +380,7 @@ Media Queries - Navbar
 
   @media screen and (max-width: 480px) {
     .navbar a {
-        font-size: 20px;
+        font-size: 17px;
         padding: 10px;
     }
       }
